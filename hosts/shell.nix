@@ -1,8 +1,9 @@
 { pkgs, ... }:
 
 {
+  # home-manager cannot change the default shell.
   programs.fish.enable = true;
   programs.starship.enable = true;
-
-  users.users.someh.shell = pkgs.fish;
+  
+  users.defaultUserShell = pkgs.fish;
 }
