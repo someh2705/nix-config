@@ -7,8 +7,8 @@
   ];
 
   home = {
-    username = "someh";
-    homeDirectory = "/home/someh";
+    username = "nixos";
+    homeDirectory = "/home/nixos";
     stateVersion = "23.11";
   };
 

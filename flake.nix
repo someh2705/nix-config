@@ -33,7 +33,7 @@
               home-manager.useGlobalPkgs = true;
               home-manager.useUserPackages = true;
   
-              home-manager.users.someh = (import ./home);
+              home-manager.users.nixos = (import ./home);
             }
           ];
         };
